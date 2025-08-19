@@ -1,0 +1,41 @@
+.header {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #f1f5f9;
+  padding: 1rem 0;
+  border-bottom: 3px solid #38bdf8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-redondo {
+  width: 120px;         /* ajusta el tamaño */
+  height: 120px;        /* mismo valor que el width */
+  border-radius: 50%;   /* lo hace circular */
+  object-fit: cover;    /* recorta bien la imagen */
+  background-color: transparent;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #38bdf8;
+  letter-spacing: 1px;
+}
+
+.header-subtitle {
+  margin: 0.3rem 0 0;
+  font-size: 1rem;
+  color: #94a3b8;
+}
+
+.user-icon {
+  border-radius: 50%;
+  border: 2px solid #38bdf8;
+  padding: 0.3rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.user-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(56, 189, 248, 0.6);
+}
